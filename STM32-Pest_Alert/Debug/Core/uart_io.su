@@ -1,0 +1,1 @@
+uart_io.cpp:5:16:int _write(int, char*, int)	24	static

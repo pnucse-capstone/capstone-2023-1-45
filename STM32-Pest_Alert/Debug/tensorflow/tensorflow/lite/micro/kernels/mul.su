@@ -1,0 +1,2 @@
+mul.cc:31:14:TfLiteStatus tflite::MulEval(TfLiteContext*, TfLiteNode*)	48	static
+mul.cc:64:18:TFLMRegistration tflite::Register_MUL()	16	static

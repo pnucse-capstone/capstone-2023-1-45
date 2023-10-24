@@ -1,0 +1,11 @@
+pooling.cc:94:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+runtime_shape.h:133:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	16	static
+types.h:264:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	8	static
+pooling.h:26:13:bool tflite::reference_integer_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, int8_t*)	128	static
+pooling.h:86:13:void tflite::reference_integer_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, int8_t*)	128	static
+pooling.h:143:13:bool tflite::reference_integer_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const int16_t*, const tflite::RuntimeShape&, int16_t*)	136	static
+pooling.cc:27:14:TfLiteStatus tflite::{anonymous}::AverageEval(TfLiteContext*, TfLiteNode*)	240	static
+pooling.h:204:13:void tflite::reference_integer_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const int16_t*, const tflite::RuntimeShape&, int16_t*)	136	static
+pooling.cc:61:14:TfLiteStatus tflite::{anonymous}::MaxEval(TfLiteContext*, TfLiteNode*)	240	static
+pooling.cc:101:18:TFLMRegistration tflite::Register_AVERAGE_POOL_2D()	16	static
+pooling.cc:105:18:TFLMRegistration tflite::Register_MAX_POOL_2D()	16	static

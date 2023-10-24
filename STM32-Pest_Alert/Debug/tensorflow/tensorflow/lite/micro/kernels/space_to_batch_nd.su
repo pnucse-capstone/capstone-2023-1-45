@@ -1,0 +1,8 @@
+space_to_batch_nd.cc:42:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+space_to_batch_nd.cc:47:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	40	static
+runtime_shape.h:133:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	16	static
+space_to_batch_nd.h:28:21:tflite::RuntimeShape tflite::reference_ops::ExtendShapeSpaceToBatch(const tflite::RuntimeShape&)	48	static
+space_to_batch_nd.cc:117:18:TFLMRegistration tflite::Register_SPACE_TO_BATCH_ND()	16	static
+space_to_batch_nd.h:40:13:void tflite::reference_ops::SpaceToBatchND(const tflite::SpaceToBatchParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = float]	168	static
+space_to_batch_nd.h:40:13:void tflite::reference_ops::SpaceToBatchND(const tflite::SpaceToBatchParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = signed char]	168	static
+space_to_batch_nd.cc:70:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	280	static

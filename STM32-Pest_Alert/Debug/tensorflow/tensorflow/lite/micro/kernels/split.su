@@ -1,0 +1,3 @@
+split.cc:70:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	24	static
+split.cc:85:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	72	static
+split.cc:121:18:TFLMRegistration tflite::Register_SPLIT()	16	static

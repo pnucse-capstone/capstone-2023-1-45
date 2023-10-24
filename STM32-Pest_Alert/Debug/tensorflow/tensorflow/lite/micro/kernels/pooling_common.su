@@ -1,0 +1,9 @@
+runtime_shape.h:133:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int)	16	static
+types.h:264:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	8	static
+pooling.h:28:13:bool tflite::reference_ops::AveragePool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	136	static
+pooling.h:196:13:void tflite::reference_ops::MaxPool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	144	static
+padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	0	static
+pooling_common.cc:30:14:TfLiteStatus tflite::CalculateOpDataPooling(const TfLiteContext*, const TfLitePoolParams*, const TfLiteTensor*, const TfLiteTensor*, tflite::OpDataPooling*)	56	static
+pooling_common.cc:50:14:TfLiteStatus tflite::PoolingPrepare(TfLiteContext*, TfLiteNode*)	40	static
+pooling_common.cc:88:6:void tflite::AveragePoolingEvalFloat(const TfLiteContext*, const TfLiteNode*, const TfLitePoolParams*, const tflite::OpDataPooling*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	128	static
+pooling_common.cc:109:6:void tflite::MaxPoolingEvalFloat(TfLiteContext*, TfLiteNode*, TfLitePoolParams*, const tflite::OpDataPooling*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	128	static

@@ -1,0 +1,4 @@
+window.cc:44:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	32	static
+window.cc:56:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	96	static
+window.cc:90:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	40	static
+window.cc:116:19:TFLMRegistration* tflite::tflm_signal::Register_WINDOW()	24	static

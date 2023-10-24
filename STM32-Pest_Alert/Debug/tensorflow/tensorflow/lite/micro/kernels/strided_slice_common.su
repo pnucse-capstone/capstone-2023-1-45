@@ -1,0 +1,4 @@
+strided_slice_common.cc:68:28:tflite::StridedSliceParams tflite::{anonymous}::BuildStridedSliceParams(tflite::{anonymous}::StridedSliceContext*)	16	static
+strided_slice_logic.h:142:12:int tflite::strided_slice::StartForAxis(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, int)	16	static
+strided_slice_common.cc:129:7:void* tflite::StridedSliceInit(TfLiteContext*, const char*, size_t)	8	static
+strided_slice_common.cc:135:14:TfLiteStatus tflite::StridedSlicePrepare(TfLiteContext*, TfLiteNode*)	320	static

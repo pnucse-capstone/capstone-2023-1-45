@@ -1,0 +1,2 @@
+lcd_sine.c:54:6:LCD_Init	8	static
+lcd_sine.c:103:6:LCD_Output	16	static

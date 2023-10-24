@@ -1,0 +1,7 @@
+runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+runtime_shape.h:109:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+common.h:1046:12:int tflite::SubscriptToIndex(const tflite::NdArrayDesc<4>&, int, int, int, int)	16	static
+prelu_common.cc:28:14:TfLiteStatus tflite::CalculatePreluParams(const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, tflite::PreluParams*)	56	static
+prelu_common.cc:83:14:TfLiteStatus tflite::PreluPrepare(TfLiteContext*, TfLiteNode*)	40	static
+common.h:1128:22:void tflite::CopyDimsToDesc(const tflite::RuntimeShape&, tflite::NdArrayDesc<N>*) [with int N = 4]	24	static
+prelu_common.cc:50:6:void tflite::BroadcastPrelu4DSlowFloat(const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	248	static

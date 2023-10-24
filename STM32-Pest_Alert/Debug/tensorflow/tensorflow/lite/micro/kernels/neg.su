@@ -1,0 +1,2 @@
+neg.cc:30:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	72	static
+neg.cc:53:18:TFLMRegistration tflite::Register_NEG()	16	static

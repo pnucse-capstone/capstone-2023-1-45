@@ -1,0 +1,4 @@
+dequantize.cc:31:7:void* tflite::DequantizeInit(TfLiteContext*, const char*, size_t)	8	static
+types.h:313:12:int tflite::MatchingFlatSize(const tflite::RuntimeShape&, const tflite::RuntimeShape&)	16	static
+dequantize.cc:37:14:TfLiteStatus tflite::DequantizeEval(TfLiteContext*, TfLiteNode*)	88	static
+dequantize.cc:79:18:TFLMRegistration tflite::Register_DEQUANTIZE()	16	static

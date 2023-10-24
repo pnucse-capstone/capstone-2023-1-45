@@ -1,0 +1,20 @@
+concatenation.cc:65:13:void tflite::{anonymous}::GetShapesPointers(const tflite::RuntimeShape*, size_t, const tflite::RuntimeShape**)	12	static
+concatenation.cc:106:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+concatenation.cc:52:13:void tflite::{anonymous}::GetAllInputTensorShapes(const TfLiteContext*, const TfLiteNode*, tflite::RuntimeShape*)	56	static
+concatenation.cc:111:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	64	static
+runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+types.h:264:12:int tflite::MatchingDim(const tflite::RuntimeShape&, int, const tflite::RuntimeShape&, int)	16	static
+concatenation.cc:254:18:TFLMRegistration tflite::Register_CONCATENATION()	16	static
+concatenation.h:30:13:void tflite::reference_ops::Concatenation(const tflite::ConcatenationParams&, const tflite::RuntimeShape* const*, const Scalar* const*, const tflite::RuntimeShape&, Scalar*) [with Scalar = float]	64	static
+concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = float]	424	static
+concatenation.h:30:13:void tflite::reference_ops::Concatenation(const tflite::ConcatenationParams&, const tflite::RuntimeShape* const*, const Scalar* const*, const tflite::RuntimeShape&, Scalar*) [with Scalar = long int]	64	static
+concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = long int]	424	static
+concatenation.h:30:13:void tflite::reference_ops::Concatenation(const tflite::ConcatenationParams&, const tflite::RuntimeShape* const*, const Scalar* const*, const tflite::RuntimeShape&, Scalar*) [with Scalar = signed char]	72	static
+concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = signed char]	424	static
+concatenation.h:30:13:void tflite::reference_ops::Concatenation(const tflite::ConcatenationParams&, const tflite::RuntimeShape* const*, const Scalar* const*, const tflite::RuntimeShape&, Scalar*) [with Scalar = long long int]	64	static
+concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = long long int]	424	static
+concatenation.h:30:13:void tflite::reference_ops::Concatenation(const tflite::ConcatenationParams&, const tflite::RuntimeShape* const*, const Scalar* const*, const tflite::RuntimeShape&, Scalar*) [with Scalar = short int]	64	static
+concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = short int]	424	static
+concatenation.h:30:13:void tflite::reference_ops::Concatenation(const tflite::ConcatenationParams&, const tflite::RuntimeShape* const*, const Scalar* const*, const tflite::RuntimeShape&, Scalar*) [with Scalar = bool]	72	static
+concatenation.cc:86:6:void tflite::{anonymous}::EvalUnquantized(TfLiteContext*, TfLiteNode*) [with data_type = bool]	424	static
+concatenation.cc:217:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	24	static

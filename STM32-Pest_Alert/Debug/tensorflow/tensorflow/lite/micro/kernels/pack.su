@@ -1,0 +1,2 @@
+pack.cc:72:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	56	static
+pack.cc:108:18:TFLMRegistration tflite::Register_PACK()	16	static

@@ -1,0 +1,12 @@
+runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+runtime_shape.h:109:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+runtime_shape.h:147:12:int tflite::Offset(const tflite::RuntimeShape&, int, int, int, int, int)	24	static
+kernel_util.h:190:16:int64_t tflite::NumElements(const TfLiteIntArray*)	40	static
+slice.cc:47:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+slice.cc:160:18:TFLMRegistration tflite::Register_SLICE()	16	static
+slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = float]	152	static
+slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = long int]	152	static
+slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = signed char]	152	static
+slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = short int]	152	static
+slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = bool]	152	static
+slice.cc:84:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	352	static

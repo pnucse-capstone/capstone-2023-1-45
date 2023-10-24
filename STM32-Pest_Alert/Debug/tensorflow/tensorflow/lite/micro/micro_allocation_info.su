@@ -1,0 +1,20 @@
+table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	0	static
+micro_allocation_info.cc:37:6:void tflite::AllocationInfoBuilder::UpdateFirstCreated(tflite::AllocationInfo*, int)	8	static
+micro_allocation_info.cc:48:6:void tflite::AllocationInfoBuilder::UpdateLastUsed(tflite::AllocationInfo*, int)	8	static
+micro_allocation_info.cc:146:14:TfLiteStatus tflite::AllocationInfoBuilder::FreeAllocationInfo()	8	static
+micro_allocation_info.cc:338:14:TfLiteStatus tflite::AllocationInfoBuilder::GetOfflinePlannedOffsets(const int32_t**)	32	static
+table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = unsigned char]	16	static
+table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long int]	16	static
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = long int]	8	static
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::Tensor>]	8	static
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::Operator>]	8	static
+vector.h:169:15:flatbuffers::Vector<T>::return_type flatbuffers::Vector<T>::Get(flatbuffers::uoffset_t) const [with T = flatbuffers::Offset<tflite::SubGraph>]	8	static
+table.h:50:26:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const void*]	8	static
+table.h:50:26:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<long int>*]	8	static
+micro_allocation_info.cc:154:14:TfLiteStatus tflite::AllocationInfoBuilder::ValidateSubgraph(const tflite::SubGraph*, TfLiteEvalTensor*)	40	static
+table.h:50:26:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Tensor> >*]	8	static
+table.h:50:26:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >*]	8	static
+micro_allocation_info.cc:233:14:TfLiteStatus tflite::AllocationInfoBuilder::MarkAllocationLifetimes(int, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)	80	static
+micro_allocation_info.cc:54:14:TfLiteStatus tflite::AllocationInfoBuilder::MarkSubgraphLifetimesIfNecessary(const tflite::Operator*, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)	40	static
+micro_allocation_info.cc:178:14:TfLiteStatus tflite::AllocationInfoBuilder::InitializeAllocationInfo(const int32_t*, tflite::SubgraphAllocations*)	56	static
+micro_allocation_info.cc:103:14:TfLiteStatus tflite::AllocationInfoBuilder::CreateAllocationInfo(int)	32	static
