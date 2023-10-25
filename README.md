@@ -30,7 +30,7 @@
 - I2C: SCL->PB8(D15)
 - SDA->PB9(D14)
 
-### 블루투스 모듈 연결
+#### 블루투스 모듈 연결
 - VCC -> 3.3V
 - GND -> GND
 - RX -> USART6_TX(D1)
