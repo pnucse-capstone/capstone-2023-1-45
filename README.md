@@ -20,4 +20,38 @@
 
 
 ### 5. 설치 및 사용법
+#### 카메라<->STM32F746G-disco 연결
+- SPI: MOSI->PB15(D11)
+- MISO->PB14(D12)
+- SCK->PI_1(D13)
+- CS(NSS)->PI_0(D5)
+- VCC-> 3.3V
+- GND->GND
+- I2C: SCL->PB8(D15)
+- SDA->PB9(D14)
 
+### 블루투스 모듈 연결
+- VCC -> 3.3V
+- GND -> GND
+- RX -> USART6_TX(D1)
+- TX -> USART6_RX(D0)
+
+#### 보드 설정
+1. STMCubeIDE를 1.5버전으로 설치해야 한다. [여기](https://www.st.com/en/development-tools/stm32cubeide.html) 에서 다운로드 받을 수 있다.
+2. 본 repository를 clone한다.
+```bash
+git@github.com:JS970/capstone-2023-1-45.git
+```
+3. STM32-Pest_Alert폴더로 이동한다.
+```bash
+cd STM32-Pest_Alert
+```
+4. STMCubeIDE에서 File -> Import Projects from File System or Archive를 선택한 후 경로를 (3)의 경로로 설정한다.
+5. 보드를 연결 후 프로젝트를 빌드 및 실행한다.
+6. 보드에 연결된 카메라를 적절한 위치에 설치한다.
+
+#### 애플리케이션 설정
+1. Pest_Alert_Application을 안드로이드 스튜디오를 통해 빌드한 후 실행해도 되고, apk 파일을 사용하여 직접 실행해도 된다.
+2. 애플리케이션을 설치 후 관련 권한을 승인한다.
+3. 블루투스를 통해 보드와 연결한다.
+4. 보드가 정상적으로 설정되었다면 해충이 탐지되었을 경우 애플리케이션을 통해 해충 탐지 알람이 온다.
