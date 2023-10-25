@@ -40,7 +40,7 @@
 1. STMCubeIDE를 1.5버전으로 설치해야 한다. [여기](https://www.st.com/en/development-tools/stm32cubeide.html) 에서 다운로드 받을 수 있다.
 2. 본 repository를 clone한다.
 ```bash
-git@github.com:JS970/capstone-2023-1-45.git
+git clone git@github.com:JS970/capstone-2023-1-45.git
 ```
 3. STM32-Pest_Alert폴더로 이동한다.
 ```bash
