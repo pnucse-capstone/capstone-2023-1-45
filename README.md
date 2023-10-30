@@ -17,7 +17,7 @@
 ![summary](./asset/summary.png)
 
 ### 4. 소개 및 시연 영상
-
+[![영상](https://img.youtube.com/vi/0A9cr8S-1Ow/0.jpg)](https://www.youtube.com/watch?v=0A9cr8S-1Ow)
 
 ### 5. 설치 및 사용법
 #### 카메라<->STM32F746G-disco 연결
